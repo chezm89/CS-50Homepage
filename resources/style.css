@@ -13,6 +13,9 @@ img {
     border-radius: 6%;
 }
 
+p {
+    padding-left: 150px;
+}
 .formcontainer {
     padding-left: 150px;
 }

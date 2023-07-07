@@ -27,15 +27,22 @@
         </div>
     </nav>
 
+    <p>Contact Me Via Email With Your Questions</p>
+
     <div class="formcontainer">
         <form action="mailto:chez.middleton1989@gmail.com" method="post" enctype="text/plain">
             Name:<br><input type="text" name="sname"> <br>
             Message:<br><input type="text" name="ssubject">
             <br>
             <br>
-            <input type="submit" value="Send">
+            <input type="submit" value="Send" onclick="emailAlert();">
          </form>
     </div>
+    <script>
+        function emailAlert() {
+            alert("You are about to send an email");
+          }
+    </script>
         
 </body>
 </html>
