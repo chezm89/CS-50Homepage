@@ -43,3 +43,11 @@ p {
     height: 250px;
     margin-right: 15px;
 }
+
+#indexheader {
+    width: 100%;
+    height: 100vh;
+    background-image: url(resources\images\chez-middleton-screen-shot-2020-12-28-at-6-23-43-am.jpg);
+    background-size: cover;
+    background-position: center;
+}
